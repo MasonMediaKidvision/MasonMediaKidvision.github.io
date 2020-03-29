@@ -3,15 +3,24 @@
 <body>
 <h1>Howdy World</h1>
 <p>I'm hosted with GitHub Pages.</p>
+ <audio controls id="music">
+<source src="mj.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<p>Click the buttons to play or pause the music.</p>
+
+<button onclick="play()" type="button">Play </button>
+<button onclick="pause()" type="button">Pause</button>
+
 <script>
-var x = document.getElementById("https://github.com/MasonMediaKidvision/MasonMediaKidvision.github.io/blob/master//audiogoeshere/dansdoneaudio.m4a"); 
+var myMusic= document.getElementById("/MasonMediaKidvision.github.io/audiogoeshere/dansdoneaudio.m4a");
+function play() {
+myMusic.play();
+}
 
-function playAudio() { 
-  x.play(); 
-} 
-
-function pauseAudio() { 
-  x.pause(); 
+function pause() {
+myMusic.pause();
 }
 </script>
 </body>
