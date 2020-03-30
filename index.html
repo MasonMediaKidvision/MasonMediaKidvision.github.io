@@ -1,40 +1,32 @@
 <!DOCTYPE html>
 <html>
-<source src="horse.ogg" type="audio/ogg">
- <source src="horse.mp3" type="audio/mpeg">
+<head>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <script src="aframe.min.js"></script>
+  <script src="ar-js.min.js"></script>
+</head>
 <body>
-<h1>Howdy Sunday World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<!DOCTYPE html>
-<html>
-<body>
-
-<audio id="dansdoneaudio.mp3">
-  <source src="horse.ogg" type="audio/ogg">
-  <source src="horse.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-<p>Click the buttons to play or pause the audio.</p>
-
-<button onclick="playAudio()" type="button">Play Audio</button>
-<button onclick="pauseAudio()" type="button">Pause Audio</button> 
-
+  <audio id="myAudio">
+    <source src="dan_talking.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <a-scene embedded arjs>
+    <a-marker preset="hiro">
+        <a-entity
+        position="0 0 0"
+        scale=".125 .125 .125"
+        rotation="15 0 0"
+        gltf-model="scene.gltf"
+        ></a-entity>
+    </a-marker>
+    <a-entity camera></a-entity>
+  </a-scene>
 <script>
-var x = document.getElementById("dansdoneaudio.mp3"); 
-
-function playAudio() { 
-  x.play(); 
-} 
-
-function pauseAudio() { 
-  x.pause(); 
-} 
+  window.onload = function() { var x = document.getElementById("myAudio"); x.play() } 
 </script>
-
-</body>
-</html>
-
 
 </body>
 </html>
