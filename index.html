@@ -1,32 +1,1 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <script src="aframe.min.js"></script>
-  <script src="ar-js.min.js"></script>
-</head>
-<body>
-  <audio id="myAudio">
-    <source src="dan_talking.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-  <a-scene embedded arjs>
-    <a-marker preset="hiro">
-        <a-entity
-        position="0 0 0"
-        scale=".125 .125 .125"
-        rotation="15 0 0"
-        gltf-model="scene.gltf"
-        ></a-entity>
-    </a-marker>
-    <a-entity camera></a-entity>
-  </a-scene>
-<script>
-  window.onload = function() { var x = document.getElementById("myAudio"); x.play() } 
-</script>
-
-</body>
-</html>
+<!DOCTYPE html> <html> <head>   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">   <link rel="manifest" href="/site.webmanifest">   <script src="aframe.min.js"></script>   <script src="ar-js.min.js"></script> </head> <body>   <audio id="myAudio">     <source src="dan_talking.mp3" type="audio/mpeg">     Your browser does not support the audio element.   </audio>   <a-scene embedded arjs>     <a-marker preset="hiro">          <a-entity         animation="property: rotation; to: 0 300 0; dur: 2000; easing: linear; loop: true"         position="0 0 0"         scale=".125 .125 .125"         rotation="15 0 0"         gltf-model="scene.gltf"         ></a-entity>      </a-marker>     <a-entity camera></a-entity>   </a-scene> <script>   // window.onload = function() { var x = document.getElementById("myAudio"); x.play() }  </script>  </body> 
