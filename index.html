@@ -14,14 +14,19 @@
     Your browser does not support the audio element.
   </audio>
   <a-scene embedded arjs>
-    <a-marker preset="hiro">
+    <!-- for camera marker -->
+    <!-- <a-marker-camera type='pattern' patternUrl='pattern-DanielMasonMarker.patt'></a-marker-camera>  -->
+    <!-- for plain marker -->
+    <!-- <a-marker type=‘pattern’ url=‘pattern-DanielMasonMarker.patt’> -->
+    <!--   <a-marker preset="hiro"> -->
+    <a-marker preset="pattern" type="pattern" url="pattern-Nate.patt">
         <a-entity
         id="mickeymouse"
         position="0 0 0"
         scale="0.125 0.1.25 0.125"
         rotation="14.999999999999998 0 0"
         gltf-model="scene.gltf"
-        ></a-ent  ity>
+        ></a-entity>
     </a-marker>
     <a-entity camera></a-entity>
   </a-scene>
