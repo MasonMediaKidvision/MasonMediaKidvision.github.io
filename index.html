@@ -9,26 +9,17 @@
   <script src="ar-js.min.js"></script>
 </head>
 <body>
-  <!-- <audio id="myAudio">
-  <source src="dan_talking.mp3" type="audio/mpeg">
+  <audio id="myAudio">
+    <source src="dan_talking.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
-  </audio> -->
-  <a-scene>
-  <a-assets>
-    <audio id="river" src="dan_talking.mp3" preload="auto"></audio>
-  </a-assets>
-  <var entity = document.querySelector('[sound]');
-  <!-- entity.components.sound.stopSound();> -->
-  <entity.components.sound.playSound();>
-  <a-entity sound="src: #river"></a-entity>
-</a-scene>
+  </audio>
   <a-scene embedded arjs>
     <!-- for camera marker -->
     <!-- <a-marker-camera type='pattern' patternUrl='pattern-DanielMasonMarker.patt'></a-marker-camera>  -->
     <!-- for plain marker -->
     <!-- <a-marker type=‘pattern’ url=‘pattern-DanielMasonMarker.patt’> -->
     <!--   <a-marker preset="hiro"> -->
-    <a-marker preset="pattern" type="pattern" url="pattern-NatePortal.patt">
+    <a-marker preset="pattern" type="pattern" url="pattern-Nate.patt">
         <a-entity
         id="mickeymouse"
         position="0 0 0"
