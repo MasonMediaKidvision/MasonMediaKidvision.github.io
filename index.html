@@ -13,15 +13,8 @@
   <source src="dan_talking.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
-  var x = document.getElementById("myAudio"); 
-
-function playAudio() { 
-  x.play(); 
-} 
-
-function pauseAudio() { 
-  x.pause(); 
-}
+  <a-entity id="river" geometry="primitive: plane" material="color: blue"
+          position="-10 0 0" sound="src: url(dan_talking.mp3); autoplay: true"></a-entity>
   <a-scene embedded arjs>
     <!-- for camera marker -->
     <!-- <a-marker-camera type='pattern' patternUrl='pattern-DanielMasonMarker.patt'></a-marker-camera>  -->
