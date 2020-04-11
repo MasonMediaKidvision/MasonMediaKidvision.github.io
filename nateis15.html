@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <script src="aframe.min.js"></script>
+  <script src="ar-js.min.js"></script>
+  <script src="howler.core.js"></script>
+</head>
+<body>
+  <script>
+    var sound = new Howl({
+  src: ['nate.mp3']
+});
+
+sound.play();
+</script>
+  <!-- <audio id="myAudio">
+  <source src="dan_talking.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio> -->
+
+
+
+
+  <a-scene embedded arjs>
+
+
+
+
+    <!-- for camera marker -->
+    <!-- <a-marker-camera type='pattern' patternUrl='pattern-DanielMasonMarker.patt'></a-marker-camera>  -->
+    <!-- for plain marker -->
+    <!-- <a-marker type=‘pattern’ url=‘pattern-DanielMasonMarker.patt’> -->
+    <!--   <a-marker preset="hiro"> -->
+
+
+
+    <a-marker preset="pattern" type="pattern" url="pattern-NatePortal.patt">
+        <a-entity
+        id="mickeymouse"
+        position="0 0 0"
+        scale="0.125 0.1.25 0.125"
+        rotation="14.999999999999998 0 0"
+        gltf-model="natescene.gltf"
+        ></a-entity>
+    </a-marker>
+    <a-entity camera></a-entity>
+  </a-scene>
+
+
+
+  <!-- this is a comment and you could press command ? -->
+<!-- <script>
+  window.onload = function() { var x = document.getElementById("myAudio"); x.play() } 
+</script> -->
+
+</body>
+</html>
