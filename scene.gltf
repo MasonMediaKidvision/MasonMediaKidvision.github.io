@@ -1,0 +1,521 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5008,
+      "max": [
+        1.1978579759597778,
+        6.8508915901184082,
+        1.8168013095855713
+      ],
+      "min": [
+        -1.1978522539138794,
+        -4.3447895050048828,
+        -2.9264740943908691
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 60096,
+      "componentType": 5126,
+      "count": 5008,
+      "max": [
+        0.99996733665466309,
+        0.99812471866607666,
+        0.99994874000549316
+      ],
+      "min": [
+        -0.99996733665466309,
+        -0.99970638751983643,
+        -0.99999594688415527
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 5008,
+      "max": [
+        0.99967300891876221,
+        0.99931502342224121,
+        0.99998563528060913,
+        1
+      ],
+      "min": [
+        -0.99978548288345337,
+        -0.99108690023422241,
+        -0.99961519241333008,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5008,
+      "max": [
+        0.94409579038619995,
+        0.99973607063293457
+      ],
+      "min": [
+        0.00026389351114630699,
+        0.00026389351114630699
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 40064,
+      "componentType": 5126,
+      "count": 5008,
+      "max": [
+        0.94409579038619995,
+        0.99973607063293457
+      ],
+      "min": [
+        0.00026389351114630699,
+        0.00026389351114630699
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 26028,
+      "max": [
+        5007
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 120192,
+      "componentType": 5126,
+      "count": 836,
+      "max": [
+        0.34672170877456665,
+        -3.1791152954101562,
+        1.5578100681304932
+      ],
+      "min": [
+        -0.34671595692634583,
+        -3.3207616806030273,
+        1.4168465137481689
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 130224,
+      "componentType": 5126,
+      "count": 836,
+      "max": [
+        0.99715375900268555,
+        0.99552410840988159,
+        0.99824857711791992
+      ],
+      "min": [
+        -0.99715375900268555,
+        -0.99552410840988159,
+        -0.99824857711791992
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 80128,
+      "componentType": 5126,
+      "count": 836,
+      "max": [
+        0.98232179880142212,
+        0.92646926641464233
+      ],
+      "min": [
+        0.19808867573738098,
+        0.03134995698928833
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 104112,
+      "componentType": 5125,
+      "count": 4608,
+      "max": [
+        835
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 140256,
+      "componentType": 5126,
+      "count": 5760,
+      "max": [
+        1.2825189828872681,
+        0.26314342021942139,
+        1.0814452171325684
+      ],
+      "min": [
+        -1.2825131416320801,
+        -4.3004112243652344,
+        -2.9524555206298828
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 209376,
+      "componentType": 5126,
+      "count": 5760,
+      "max": [
+        0.99992883205413818,
+        0.99999821186065674,
+        0.99978017807006836
+      ],
+      "min": [
+        -0.99992883205413818,
+        -0.99999856948852539,
+        -0.99949705600738525
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 86816,
+      "componentType": 5126,
+      "count": 5760,
+      "max": [
+        0,
+        0
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 122544,
+      "componentType": 5125,
+      "count": 33792,
+      "max": [
+        5759
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Michael Fry (https://sketchfab.com/michael.fry)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/tyrannosaurus-rex-068371b31ec04863a5697da4fd56a5d8",
+      "title": "Tyrannosaurus Rex"
+    },
+    "generator": "Sketchfab-7.34.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 257712,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 132896,
+      "byteOffset": 257712,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 278496,
+      "byteOffset": 390608,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 80128,
+      "byteOffset": 669104,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 749232,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Material.001_baseColor.png"
+    },
+    {
+      "uri": "textures/Material.001_normal.png"
+    },
+    {
+      "uri": "textures/Eyes_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Material.001",
+      "normalTexture": {
+        "index": 1,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.50136362711588545
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Eyes",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.40166667591441763,
+        "roughnessFactor": 0.25015152439926608
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Teeth",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.55430000000000001,
+          0.48774899999999999,
+          0.26774500000000001,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.89132408793237461
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "T.Rex_Material.001_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "T.Rex_Eyes_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "T.Rex_Teeth_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TEXCOORD_0": 12
+          },
+          "indices": 13,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "e6934b75961948c6b4c705cdbd2aabd3.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        6,
+        7
+      ],
+      "matrix": [
+        100,
+        0,
+        0,
+        0,
+        -0,
+        -1.6292067939183141e-05,
+        -99.999999999998678,
+        0,
+        0,
+        99.999999999998678,
+        -1.6292067939183141e-05,
+        0,
+        -0.00028935744194313884,
+        290.83889770507812,
+        120.09605407714844,
+        1
+      ],
+      "name": "T.Rex"
+    },
+    {
+      "mesh": 0,
+      "name": "T.Rex_Material.001_0"
+    },
+    {
+      "mesh": 1,
+      "name": "T.Rex_Eyes_0"
+    },
+    {
+      "mesh": 2,
+      "name": "T.Rex_Teeth_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
