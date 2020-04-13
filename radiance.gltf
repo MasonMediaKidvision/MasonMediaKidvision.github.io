@@ -1,0 +1,261 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v0.9.36",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.19376111030578613,
+                0.140896275639534,
+                -0.5440371632575989,
+                0.8041321039199829
+            ],
+            "translation" : [
+                -7.04420280456543,
+                144.12843322753906,
+                5.317150115966797
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "christ_LR",
+            "rotation" : [
+                -0.20541897416114807,
+                0,
+                0,
+                0.9786741137504578
+            ],
+            "scale" : [
+                28.90222930908203,
+                28.9022274017334,
+                28.9022274017334
+            ],
+            "translation" : [
+                2.696136951446533,
+                -54.291996002197266,
+                3.095147132873535
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "rayons",
+            "rotation" : [
+                -0.20541897416114807,
+                0,
+                0,
+                0.9786741137504578
+            ],
+            "scale" : [
+                28.90222930908203,
+                28.9022274017334,
+                0.7225550413131714
+            ],
+            "translation" : [
+                -8.474923133850098,
+                66.72943878173828,
+                69.12582397460938
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "rayl.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    1,
+                    0.7093246579170227,
+                    0.22282306849956512,
+                    0.44285595417022705
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.1637554168701172
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "face_HR",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "JOINTS_0" : 3,
+                        "WEIGHTS_0" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Plane.012",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7,
+                        "TEXCOORD_0" : 8
+                    },
+                    "indices" : 9,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 11969,
+            "max" : [
+                0.713445782661438,
+                1.678453803062439,
+                0.27785998582839966
+            ],
+            "min" : [
+                -0.7290636897087097,
+                -0.007222144864499569,
+                -0.18264225125312805
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 11969,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 11969,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 11969,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 11969,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 42672,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 971,
+            "max" : [
+                6.392624378204346,
+                3.065718650817871,
+                0.5
+            ],
+            "min" : [
+                -6.7659149169921875,
+                -1.1575539112091064,
+                -556.4949951171875
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 971,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 971,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 1503,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 143628,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 143628,
+            "byteOffset" : 143628
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 95752,
+            "byteOffset" : 287256
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 95752,
+            "byteOffset" : 383008
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 191504,
+            "byteOffset" : 478760
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 85344,
+            "byteOffset" : 670264
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11652,
+            "byteOffset" : 755608
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11652,
+            "byteOffset" : 767260
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7768,
+            "byteOffset" : 778912
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3006,
+            "byteOffset" : 786680
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 789688,
+            "uri" : "radiance.bin"
+        }
+    ]
+}
