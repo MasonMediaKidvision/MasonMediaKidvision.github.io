@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <script src="aframe.min.js"></script>
+  <script src="ar-js.min.js"></script>
+  <script src="howler.core.js"></script>
+</head>
+<body>
+
+   <!-- below is an example hyperlink- if you're into thaty sort of stuff -->
+
+  <!-- <a href="page2.html">page 2</a> -->
+
+
+    <!-- this is a comment and you could press command ? or shoift command ? on laptop-->
+
+  <!-- This audio might work on droids for autoplay -->
+<!-- <script>
+  window.onload = function() { var x = document.getElementById("myAudio"); x.play() } 
+</script> -->
+
+
+ <!--  <script>
+    var sound = new Howl({
+  src: ['nate.mp3']
+});
+
+sound.play();
+</script> -->
+
+<!-- html5 Audio for those that are not cool- does not work on iphone -->
+
+
+  <!-- <audio id="myAudio">
+  <source src="dan_talking.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio> -->
+
+
+
+
+  <a-scene embedded arjs>
+
+
+
+<!-- This stuff is probably bad (at least pattern marker stuff but others might be useful someday) -->
+    <!-- for camera marker -->
+    <!-- <a-marker-camera type='pattern' patternUrl='pattern-DanielMasonMarker.patt'></a-marker-camera>  -->
+    <!-- for plain marker -->
+    <!-- <a-marker type=‘pattern’ url=‘pattern-DanielMasonMarker.patt’> -->
+    <!--   <a-marker preset="hiro"> -->
+
+
+
+    <a-marker preset="pattern" type="pattern" url="pattern-NatePortal.patt">
+       <!--  <a-entity
+        id="mickeymouse" visible="true" fog="density: 0; color: #7d7e6a; near: 0.95"
+        position="0.56729 0.11177 0.12035"
+        scale="0.01884 0.01884 0.01884"
+        rotation="-5.765101334606343 0 0"
+        gltf-model="natescene.gltf"
+        ></a-entity>
+    </a-marker>
+    <a-entity camera></a-entity>
+  </a-scene>
+ -->
+
+
+
+
+<a-scene>
+  <a-assets>
+    <video id="penguin-sledding" autoplay loop="true" src="Phil Ochs - The War Is Over.mp4"></video>
+  </a-assets>
+
+  <!-- Using the asset management system. -->
+  <a-video src="#penguin-sledding" width="16" height="9" position="0 0 -20"></a-video>
+
+ 
+</a-scene>
+
+
+
+
+
+</body>
+</html>
